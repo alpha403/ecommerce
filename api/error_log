@@ -1,0 +1,156 @@
+[18-Feb-2022 07:46:30 America/Boise] PHP Parse error:  syntax error, unexpected '=' in /home2/rtazecom/public_html/api/config.php on line 33
+[18-Feb-2022 07:51:39 America/Boise] PHP Parse error:  syntax error, unexpected '=' in /home2/rtazecom/public_html/api/config.php on line 33
+[22-Feb-2022 05:47:19 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/original/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[22-Feb-2022 05:47:19 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/comp/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[22-Feb-2022 05:47:19 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/thumbnail/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[22-Feb-2022 06:00:47 America/Boise] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST) in /home2/rtazecom/public_html/api/catalog.php on line 355
+[22-Feb-2022 06:00:47 America/Boise] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST) in /home2/rtazecom/public_html/api/catalog.php on line 355
+[22-Feb-2022 06:01:06 America/Boise] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST) in /home2/rtazecom/public_html/api/catalog.php on line 355
+[22-Feb-2022 06:01:06 America/Boise] PHP Parse error:  syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST) in /home2/rtazecom/public_html/api/catalog.php on line 355
+[22-Feb-2022 07:44:03 America/Boise] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home2/rtazecom/public_html/api/catalog.php on line 135
+[22-Feb-2022 07:44:39 America/Boise] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home2/rtazecom/public_html/api/catalog.php on line 135
+[22-Feb-2022 07:44:54 America/Boise] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home2/rtazecom/public_html/api/catalog.php on line 135
+[22-Feb-2022 07:49:54 America/Boise] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home2/rtazecom/public_html/api/catalog.php on line 135
+[22-Feb-2022 07:51:13 America/Boise] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home2/rtazecom/public_html/api/catalog.php on line 135
+[22-Feb-2022 07:51:37 America/Boise] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home2/rtazecom/public_html/api/catalog.php on line 135
+[22-Feb-2022 07:57:52 America/Boise] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home2/rtazecom/public_html/api/catalog.php on line 291
+[22-Feb-2022 08:00:55 America/Boise] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home2/rtazecom/public_html/api/catalog.php on line 291
+[23-Feb-2022 07:59:15 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 392
+[23-Feb-2022 10:18:22 America/Boise] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home2/rtazecom/public_html/api/catalog.php on line 475
+[23-Feb-2022 10:18:22 America/Boise] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home2/rtazecom/public_html/api/catalog.php on line 475
+[23-Feb-2022 10:18:22 America/Boise] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home2/rtazecom/public_html/api/catalog.php on line 475
+[23-Feb-2022 10:18:22 America/Boise] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home2/rtazecom/public_html/api/catalog.php on line 475
+[23-Feb-2022 10:18:35 America/Boise] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home2/rtazecom/public_html/api/catalog.php on line 475
+[23-Feb-2022 10:18:35 America/Boise] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home2/rtazecom/public_html/api/catalog.php on line 475
+[23-Feb-2022 10:18:35 America/Boise] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home2/rtazecom/public_html/api/catalog.php on line 475
+[23-Feb-2022 10:18:35 America/Boise] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home2/rtazecom/public_html/api/catalog.php on line 475
+[25-Feb-2022 05:56:26 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/original/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 05:56:26 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/comp/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 05:56:26 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/thumbnail/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 05:56:39 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/original/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 05:56:39 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/comp/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 05:56:39 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/thumbnail/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 05:57:09 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/original/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 05:57:09 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/comp/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 05:57:09 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/thumbnail/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 05:58:08 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/original/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 05:58:08 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/comp/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 05:58:08 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/thumbnail/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:01:55 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/original/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:01:55 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/comp/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:01:55 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/thumbnail/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:36:39 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/original/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:36:39 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/comp/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:36:39 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/thumbnail/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:37:46 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/original/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:37:46 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/comp/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:37:46 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/thumbnail/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:41:14 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/original/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:41:14 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/comp/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:41:14 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/thumbnail/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:42:08 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/original/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:42:08 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/comp/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:42:08 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/thumbnail/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:43:05 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/original/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:43:05 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/comp/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:43:05 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/thumbnail/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:44:04 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/original/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:44:04 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/comp/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:44:04 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/thumbnail/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:45:01 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/original/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:45:01 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/comp/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:45:01 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/thumbnail/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:46:18 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/original/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:46:18 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/comp/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:46:18 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/thumbnail/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:46:33 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/original/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:46:33 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/comp/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:46:33 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/thumbnail/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:47:10 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/original/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:47:10 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/comp/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:47:10 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/thumbnail/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:47:32 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/original/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:47:32 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/comp/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 06:47:32 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/thumbnail/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 08:45:14 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/original/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 08:45:14 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/comp/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[25-Feb-2022 08:45:14 America/Boise] PHP Warning:  unlink(/home2/rtazecom/public_html/admin/images/category/thumbnail/): Is a directory in /home2/rtazecom/public_html/api/common.php on line 173
+[19-Mar-2022 07:40:16 America/Boise] PHP Fatal error:  Cannot redeclare catalog::get_product_by_id() in /home2/rtazecom/public_html/api/catalog.php on line 799
+[29-Mar-2022 05:43:56 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/common.php on line 146
+[29-Mar-2022 07:42:47 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1006
+[29-Mar-2022 07:42:47 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1006
+[29-Mar-2022 07:42:47 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1006
+[29-Mar-2022 07:42:47 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1006
+[29-Mar-2022 07:48:31 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1007
+[29-Mar-2022 07:48:31 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1007
+[29-Mar-2022 07:48:31 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1007
+[29-Mar-2022 07:48:31 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1007
+[29-Mar-2022 07:52:44 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1007
+[29-Mar-2022 07:52:44 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1007
+[29-Mar-2022 07:52:44 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1007
+[29-Mar-2022 07:52:44 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1007
+[29-Mar-2022 07:54:32 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1007
+[29-Mar-2022 07:54:32 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1007
+[29-Mar-2022 07:54:32 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1007
+[29-Mar-2022 07:54:32 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1007
+[29-Mar-2022 07:56:30 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 07:56:30 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 07:56:30 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 07:56:30 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 07:57:23 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 07:57:23 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 07:57:23 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 07:57:23 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 07:58:39 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 07:58:39 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 07:58:39 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 07:58:39 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 07:58:53 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 07:58:53 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 07:58:53 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 07:58:53 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 07:59:32 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 07:59:32 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 07:59:32 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 07:59:32 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:00:37 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:00:37 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:00:37 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:00:37 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:01:15 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:01:15 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:01:15 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:01:15 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:01:43 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:01:43 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:01:43 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:01:43 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:02:35 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:02:35 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:02:35 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:02:35 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:13:01 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:13:01 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:13:01 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:13:01 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:18:45 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:18:45 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:18:45 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:18:45 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:19:17 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:19:17 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:19:17 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:19:17 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:19:36 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:19:36 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:19:36 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:19:36 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:20:51 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:20:51 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1008
+[29-Mar-2022 08:20:51 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1009
+[29-Mar-2022 08:20:51 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1009
+[29-Mar-2022 08:20:51 America/Boise] PHP Warning:  Use of undefined constant images - assumed 'images' (this will throw an Error in a future version of PHP) in /home2/rtazecom/public_html/api/catalog.php on line 1009
+[29-Mar-2022 08:20:51 America/Boise] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home2/rtazecom/public_html/api/catalog.php on line 1009
+[24-Apr-2022 01:50:33 America/Boise] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home2/rtazecom/public_html/api/catalog.php on line 1123
+[24-Apr-2022 01:50:41 America/Boise] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home2/rtazecom/public_html/api/catalog.php on line 1123
+[24-Apr-2022 07:03:06 America/Boise] PHP Warning:  mysqli_real_escape_string() expects exactly 2 parameters, 1 given in /home2/rtazecom/public_html/api/catalog.php on line 1213

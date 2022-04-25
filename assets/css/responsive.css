@@ -1,0 +1,8 @@
+@media only screen and (max-width: 414px) {
+  .logo img {
+    display: block;
+    max-width: 100%;
+    height: auto; 
+	width:100px;
+	}
+}

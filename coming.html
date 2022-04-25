@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Rtaze - Quality Products Only</title>
+    <!-- Favicon -->
+   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/fav.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons/fav.png">
+    <link rel="manifest" href="assets/images/icons/site.webmanifest">
+     <link rel="shortcut icon" href="assets/images/icons/fav.png">
+   <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+	<script src="https://kit.fontawesome.com/005a751206.js" crossorigin="anonymous"></script>
+    <!-- Plugins CSS File -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/plugins/jquery.countdown.css">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="soon">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-lg-8">
+                    <div class="soon-content text-center">
+                        <div class="soon-content-wrapper">
+                            <img src="assets/images/page/logo.png" alt="Logo" class="soon-logo mx-auto" style="width:200px;">
+                            <h1 class="soon-title">Coming Soon</h1><!-- End .soon-title -->
+                            <div class="coming-countdown countdown-separator"></div><!-- End .coming-countdown -->
+                            <hr class="mt-2 mb-3 mt-md-3">
+                            <p>We are currently working on an awesome new site. Stay tuned for more information.
+                                Subscribe to our newsletter to stay updated on our progress.</p>
+                            <form action="#">
+                                <div class="input-group mb-5">
+                                    <input type="email" class="form-control bg-transparent" placeholder="Enter your Email Address" required>
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-primary-2" type="submit">
+                                            <span>SUBSCRIBE</span>
+                                            <i class="fa-solid fa-right-long" style="color:red;"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                           
+                        </div><!-- End .soon-content-wrapper -->
+                    </div><!-- End .soon-content -->
+                </div><!-- End .col-md-9 col-lg-8 -->
+            </div><!-- End .row -->
+        </div><!-- End .container -->
+        <div class="soon-bg bg-image" style="background-image: url(assets/images/page/soon-bg.jpg)"></div>
+        <!-- End .soon-bg bg-image -->
+    </div><!-- End .soon -->
+    <!-- Plugins JS File -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.plugin.min.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script>
+    $(function() {
+        "use strict";
+        if ($.fn.countdown) {
+            $('.coming-countdown').countdown({
+                until: new Date(2022, 5, 31), // 7th month = August / Months 0 - 11 (January  - December)
+                format: 'DHMS',
+                padZeroes: true
+            });
+
+            // Pause
+            // $('.coming-countdown').countdown('pause');
+        }
+    });
+    </script>
+</body>
+
+</html>
