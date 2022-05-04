@@ -92,13 +92,13 @@
                     </li>
                     <li class="side-nav__devider my-6"></li>
                     <li>
-                        <a href="javascript:;" class="side-menu">
+                        <a href="javascript:;" class="side-menu <?php echo $territory; ?>" id="territory_option">
                             <div class="side-menu__icon"> <i data-feather="map-pin"></i> </div>
                             <div class="side-menu__title"> Territory <i data-feather="chevron-down" class="side-menu__sub-icon"></i> </div>
                         </a>
                         <ul class="">
                             <li>
-                                <a href="#" class="side-menu">
+                                <a href="countries" class="side-menu">
                                     <div class="side-menu__icon"> <i data-feather="activity"></i> </div>
                                     <div class="side-menu__title"> Countries </div>
                                 </a>

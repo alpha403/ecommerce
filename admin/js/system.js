@@ -1810,3 +1810,234 @@ function removeFromCollection(product_id){
 	});
 	
 }
+
+function add_country(){
+	var country_name = $("#country_name").val();
+	var currency = $("#currency").val();
+	var currency_symbol = $("#currency_symbol").val();
+	if(country_name==""){
+		$("#upload_error_msg").html('Country name can not be blank');
+		$("#upload_error").modal("show");
+	}
+	else if(currency==""){
+		$("#upload_error_msg").html('Currency can not be empty');
+		$("#upload_error").modal("show");
+	}
+	else if(currency_symbol==""){
+		$("#upload_error_msg").html('Currency symbol can not be empty');
+		$("#upload_error").modal("show");
+	}
+	else{
+		var req_data = JSON.stringify({module:"territory",req:"add_country",country_name:country_name,currency:currency,currency_symbol:currency_symbol});
+		$.post(api_url,{req_data},function(data){
+			data = JSON.parse(data);
+			if(data.status=="success"){
+				$("#country_name").val('');
+				$("#currency").val('');
+				$("#currency_symbol").val('');
+				$("#add_country").modal('hide');
+				$("#upload_success_load").attr("onclick","load_country("+data.country_id+");");
+				$("#upload-success").modal('show');
+			}
+			else{
+				$("#upload_error_msg").html(data.msg);
+				$("#upload_error").modal("show");
+			}
+		})
+	}
+}
+
+function load_country(country_id){
+	$("#country_loading").show();
+	req_data = JSON.stringify({module:"territory",req:"get_country_by_id",country_id:country_id});
+	$.post(api_url,{req_data},function(data){
+		data = JSON.parse(data);
+		if(data.status=="success"){
+			setTimeout(function() {
+				if(data.country_data[4]==1){
+					var status = "Active";
+				}
+				else{
+					var status = "Inactive";
+				}
+			$("#country_loading").hide();
+			$("#country_table").prepend('<tr>'+
+										'<td id="country-'+data.country_data[0]+'">'
+											+data.country_data[1]+
+                                    '</td>'+
+									'<td>'+
+                                        '<div class="flex items-center justify-center text-theme-9" id="countrycurr-'+data.country_data[0]+'">'+data.country_data[2]+' </div>'+
+                                    '</td>'+
+									'<td>'+
+                                        '<div class="flex items-center justify-center text-theme-9" id="countrycurrsym-'+data.country_data[0]+'">'+data.country_data[3]+' </div>'+
+                                    '</td>'+
+									'<td class="w-40">'+
+                                        '<div class="flex items-center justify-center text-theme-9" id="countrystatus-'+data.country_data[0]+'">'+status+' </div>'+
+                                    '</td>'+
+									'<td class="table-report__action w-56">'+
+                                        '<div class="flex justify-center items-center">'+
+                                            '<a class="flex items-center mr-3" href="javascript:;" onclick="load_country_editor('+data.country_data[0]+')">'+ 'Edit </a>'+
+                                           '<a class="flex items-center text-theme-6" href="javascript:;" data-toggle="modal" data-target="#delete-confirmation-modal" id="countrydeact-'+data.country_data[0]+'" onclick="deactivate_country('+data.country_data[0]+');"> Deactivate </a>'+
+                                        '</div>'+
+                                    '</td>'+
+								'</tr>');
+							//timeout here	
+			 //your code to be executed after 1 second
+			}, 1000);				
+		}
+		
+	});
+}
+
+function country_page_data(query,status,offset,limit){
+	var req_data = JSON.stringify({module:"territory",req:"get_all_countries",query:query,status:status,offset:offset,limit:limit});
+	$.post(api_url,{req_data},function(data){
+		data = JSON.parse(data);
+		if(data.status=="success"){
+			$(".added").remove();
+			for(var i=0;i<=data.country_data.length-1;i++){
+				if(data.country_data[i][4]==1){
+					var status = "Active";
+					var active_btn = '<a class="flex items-center text-theme-6" href="javascript:;" data-toggle="modal" data-target="#delete-confirmation-modal" id="countrydeact-'+data.country_data[i][0]+'" onclick="deactivate_country('+data.country_data[i][0]+')"> Deactivate </a>';
+				}
+				else{
+					var status = "Inactive";
+					var active_btn = '<a class="flex items-center text-theme-6" href="javascript:;" data-toggle="modal" data-target="#delete-confirmation-modal" id="countrydeact-'+data.country_data[i][0]+'" onclick="activate_country('+data.country_data[i][0]+')"> Activate </a>';
+				}
+				$("#country_table").append('<tr class="added">'+
+										'<td id="country-'+data.country_data[i][0]+'">'+data.country_data[i][1]+
+                                    '</td>'+
+									'<td class="w-40">'+
+                                        '<div class="flex items-center justify-center text-theme-9" id="countrycurr-'+data.country_data[i][0]+'"> '+data.country_data[i][2]+' </div>'+
+                                    '</td>'+
+									'<td class="w-40">'+
+                                        '<div class="flex items-center justify-center text-theme-9" id="countrycurrsym-'+data.country_data[i][0]+'"> '+data.country_data[i][3]+' </div>'+
+                                    '</td>'+
+									'<td class="w-40">'+
+                                        '<div class="flex items-center justify-center text-theme-9" id="countrystatus-'+data.country_data[i][0]+'"> '+status+' </div>'+
+                                    '</td>'+
+									'<td class="table-report__action w-56">'+
+                                        '<div class="flex justify-center items-center">'+
+                                            '<a class="flex items-center mr-3" href="javascript:;" onclick="load_country_editor('+data.country_data[i][0]+')">'+ 'Edit </a>'+
+                                           active_btn+
+                                        '</div>'+
+                                    '</td>'+
+								'</tr>');
+			}
+			
+		}
+	});
+}
+
+function load_country_editor(country_id){
+	req_data = JSON.stringify({module:"territory",req:"get_country_by_id",country_id:country_id});
+	$.post(api_url,{req_data},function(data){
+		data = JSON.parse(data);
+		if(data.status=="success"){
+			$("#edit_country_name:text").val(data.country_data[1]);
+			$("#edit_currency:text").val(data.country_data[2]);
+			$("#edit_currency_symbol:text").val(data.country_data[3]);
+			
+			$("#edit_country_btn").attr("onclick","edit_country("+country_id+");");
+			$("#edit_country").modal('show');
+		}
+	});
+}
+
+function edit_country(country_id){
+	var country_name = $("#edit_country_name").val();
+	var currency = $("#edit_currency").val();
+	var currency_symbol = $("#edit_currency_symbol").val();
+	if(country_name==""){
+		$("#upload_error_msg").html('Country name can not be empty');
+		$("#upload_error").modal("show");
+	}
+	else if(currency==""){
+		$("#upload_error_msg").html('Currency can not be empty');
+		$("#upload_error").modal("show");
+	}
+	else if(currency_symbol==""){
+		$("#upload_error_msg").html('Currency Symbol can not be empty');
+		$("#upload_error").modal("show");
+	}
+	else{
+		var req_data = JSON.stringify({module:"territory",req:"edit_country",country_name:country_name,currency:currency,currency_symbol:currency_symbol,country_id:country_id});
+		$.post(api_url,{req_data},function(data){
+			data = JSON.parse(data);
+			if(data.status=="success"){
+				$("#edit_country_name").val('');
+				$("#edit_currency").val('');
+				$("#edit_currency_symbol").val('');
+				$("#edit_country").modal('hide');
+				req_data = JSON.stringify({module:"territory","req":"get_country_by_id",country_id:country_id});
+				$.post(api_url,{req_data},function(data2){
+					data2 = JSON.parse(data2);
+					if(data2.status=="success"){
+						$("#country-"+country_id).html(data2.country_data[1]);
+						$("#countrycurr-"+country_id).html(data2.country_data[2]);
+						$("#countrycurrsym-"+country_id).html(data2.country_data[3]);
+						$("#countrystatus-"+country_id).html(get_active_text(data2.country_data[4]));
+					}
+				});
+				$("#update-success").modal('show');
+			}
+			else{
+				$("#upload_error_msg").html(data.msg);
+				$("#upload_error").modal("show");
+			}
+		})
+	}
+}
+
+function deactivate_country(country_id){
+	req_data = JSON.stringify({module:"territory",req:"deactivate_country",country_id:country_id});
+	$.post(api_url,{req_data},function(data){
+		data  = JSON.parse(data);
+		if(data.status=="success"){
+			$("#countrydeact-"+country_id).html('Activate');
+			$("#countrydeact-"+country_id).attr("onclick",'activate_country('+country_id+');');
+			$("#countrystatus-"+country_id).html("Inactive");
+		}
+	});
+}
+
+function activate_country(country_id){
+	req_data = JSON.stringify({module:"territory",req:"activate_country",country_id:country_id});
+	$.post(api_url,{req_data},function(data){
+		data  = JSON.parse(data);
+		if(data.status=="success"){
+			$("#countrydeact-"+country_id).html('Dectivate');
+			$("#countrydeact-"+country_id).attr("onclick",'deactivate_country('+country_id+');');
+			$("#countrystatus-"+country_id).html("Active");
+		}
+	});
+}
+
+function get_country_paging(query,status,limit){
+	var req_data = JSON.stringify({module:"territory",req:"country_paging",query:query,status:status});
+	$.post(api_url,{req_data},function(data){
+		data = JSON.parse(data);
+		if(data.status=="success"){
+			$("#country_paging").html('');
+			var offset = 0;
+			for(i=1;i<=data.page_count;i++){
+				if(i==1){
+					$("#country_paging").append('<li> <a class="pagination__link pagination__link--active" onclick="country_page_data(\''+query+'\',\''+status+'\','+offset+','+limit+');activate_pagenum(this);" href="#">'+i+'</a> </li>');
+				}
+				else{
+				$("#country_paging").append('<li> <a class="pagination__link" href="#" onclick="country_page_data(\''+query+'\',\''+status+'\','+offset+','+limit+');activate_pagenum(this);">'+i+'</a> </li>');
+				}
+				offset = parseInt(offset)+limit;
+			}
+		}
+	});
+}
+
+function search_country(){
+	var query = $("#country_query").val();
+	var status = $("#country_status").val();
+	var offset = 0;
+	var limit = 2;
+	country_page_data(query,status,offset,limit);
+	get_country_paging(query,status,limit);
+}

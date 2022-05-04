@@ -100,7 +100,7 @@
                     </a>
                     <ul class="">
                         <li>
-                            <a href="#" class="menu">
+                            <a href="countries" class="menu">
                                 <div class="menu__icon"> <i data-feather="activity"></i> </div>
                                 <div class="menu__title"> Countries </div>
                             </a>

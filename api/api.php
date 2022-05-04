@@ -2,6 +2,7 @@
 include 'authenticate.php';
 include 'admin.php';
 include 'catalog.php';
+include 'territory.php';
 $req_data = $_POST['req_data'];
 $req_data = json_decode($req_data, true);
 function detect_module($req_data){
